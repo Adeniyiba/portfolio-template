@@ -1,8 +1,12 @@
 export default function Hero() {
   return (
-    <section style={{ padding: "80px 16px" }}>
-      <h1 style={{ fontSize: "48px" }}>Hello, I am building my site</h1>
-      <p>Once this works, we replace everything with the full design.</p>
+    <section className="px-4 py-20">
+      <h1 className="text-5xl font-semibold tracking-tight">
+        Hello, I am building my site
+      </h1>
+      <p className="mt-4 text-zinc-300">
+        Once this works, we replace everything with the full design.
+      </p>
     </section>
   );
 }
