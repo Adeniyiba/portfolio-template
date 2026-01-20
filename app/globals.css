@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: dark;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background: #09090b;
-  color: #f4f4f5;
+  @apply bg-zinc-950 text-zinc-100 antialiased;
 }
