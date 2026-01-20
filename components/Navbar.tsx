@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
-    <nav style={{ padding: "16px", borderBottom: "1px solid #27272a" }}>
-      <strong>My Portfolio</strong>
+    <nav className="sticky top-0 border-b border-zinc-900 bg-zinc-950/70 px-4 py-3 backdrop-blur">
+      <strong className="text-sm">My Portfolio</strong>
     </nav>
   );
 }
